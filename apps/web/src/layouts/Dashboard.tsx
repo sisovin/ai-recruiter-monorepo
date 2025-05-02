@@ -21,6 +21,11 @@ const DashboardLayout = ({ children }) => {
               <a>Settings</a>
             </Link>
           </li>
+          <li>
+            <Link href="/resume-upload">
+              <a>Resume Upload</a>
+            </Link>
+          </li>
         </ul>
       </nav>
       <main className="dashboard-content">{children}</main>
