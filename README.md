@@ -1,7 +1,3 @@
-Here's a comprehensive README file for the **AI Recruiter Monorepo**:
-
----
-
 # AI Recruiter Monorepo
 
 Welcome to the **AI Recruiter Monorepo**, a unified codebase for the AI Recruiter project. This repository is developed to streamline the development, deployment, and management of AI-powered recruitment solutions. 
