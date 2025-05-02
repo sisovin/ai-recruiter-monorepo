@@ -1,0 +1,99 @@
+lockfileVersion: 5.4
+
+specifiers:
+  fastapi: ^0.68.0
+  pydantic: ^1.8.2
+  transformers: ^4.9.2
+  torch: ^1.9.0
+  pytest: ^6.2.4
+  playwright: ^1.12.3
+  jest: ^27.0.6
+
+dependencies:
+  fastapi: 0.68.0
+  pydantic: 1.8.2
+  transformers: 4.9.2
+  torch: 1.9.0
+  pytest: 6.2.4
+  playwright: 1.12.3
+  jest: 27.0.6
+
+packages:
+  /fastapi/0.68.0:
+    resolution: {integrity: sha512-...}
+    dependencies:
+      pydantic: 1.8.2
+      starlette: 0.14.2
+
+  /pydantic/1.8.2:
+    resolution: {integrity: sha512-...}
+    dependencies:
+      typing-extensions: 3.10.0.0
+
+  /transformers/4.9.2:
+    resolution: {integrity: sha512-...}
+    dependencies:
+      filelock: 3.0.12
+      numpy: 1.21.1
+      packaging: 21.0
+      regex: 2021.7.6
+      requests: 2.26.0
+      sacremoses: 0.0.45
+      tokenizers: 0.10.3
+      tqdm: 4.61.2
+
+  /torch/1.9.0:
+    resolution: {integrity: sha512-...}
+    dependencies:
+      numpy: 1.21.1
+      typing-extensions: 3.10.0.0
+
+  /pytest/6.2.4:
+    resolution: {integrity: sha512-...}
+    dependencies:
+      attrs: 21.2.0
+      iniconfig: 1.1.1
+      packaging: 21.0
+      pluggy: 0.13.1
+      py: 1.10.0
+      toml: 0.10.2
+
+  /playwright/1.12.3:
+    resolution: {integrity: sha512-...}
+    dependencies:
+      debug: 4.3.2
+      extract-zip: 2.0.1
+      progress: 2.0.3
+      ws: 7.4.6
+
+  /jest/27.0.6:
+    resolution: {integrity: sha512-...}
+    dependencies:
+      '@jest/core': 27.0.6
+      '@jest/reporters': 27.0.6
+      '@jest/test-result': 27.0.6
+      '@jest/transform': 27.0.6
+      '@jest/types': 27.0.6
+      '@types/node': 16.4.10
+      '@types/yargs': 16.0.4
+      chalk: 4.1.1
+      exit: 0.1.2
+      graceful-fs: 4.2.6
+      jest-changed-files: 27.0.6
+      jest-config: 27.0.6
+      jest-haste-map: 27.0.6
+      jest-message-util: 27.0.6
+      jest-regex-util: 27.0.6
+      jest-resolve: 27.0.6
+      jest-resolve-dependencies: 27.0.6
+      jest-runner: 27.0.6
+      jest-runtime: 27.0.6
+      jest-snapshot: 27.0.6
+      jest-util: 27.0.6
+      jest-validate: 27.0.6
+      micromatch: 4.0.4
+      p-limit: 3.0.2
+      source-map-support: 0.5.19
+      string-length: 4.0.2
+      strip-ansi: 6.0.0
+      yargs: 16.2.0

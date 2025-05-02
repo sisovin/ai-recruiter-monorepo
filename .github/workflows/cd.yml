@@ -27,3 +27,41 @@ jobs:
         run: |
           # Add your deployment script here
           echo "Deploying to environment"
+
+  resume-parser-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r services/resume-parser/requirements.txt
+
+      - name: Deploy resume-parser
+        run: bash scripts/deploy-resume-parser.sh
+
+  matching-engine-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r services/matching-engine/requirements.txt
+
+      - name: Deploy matching-engine
+        run: bash scripts/deploy-matching-engine.sh
